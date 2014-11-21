@@ -94,4 +94,9 @@
 	return (totalWidth - ((count + 1) * horizontalMargin)) / count;
 }
 
++ (CGFloat)horizontalSpacingForTotalWidth:(CGFloat)totalWidth cellWidth:(CGFloat)cellWidth count:(NSInteger)count
+{
+	return (totalWidth - (count * cellWidth)) / (count + 1);
+}
+
 @end

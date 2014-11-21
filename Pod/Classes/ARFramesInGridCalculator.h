@@ -62,4 +62,7 @@ typedef enum {
 /** when placing cells within a limited width, this will calculate the corresponding cellWidth. The return value is not rounded.*/
 + (CGFloat)widthForTotalWidth:(CGFloat)totalWidth count:(NSInteger)count horizontalMargin:(CGFloat)horizontalMargin;
 
+/** for a given cellSize and totalWidth, calculate spacing for even layout. The return value is not rounded */
++ (CGFloat)horizontalSpacingForTotalWidth:(CGFloat)totalWidth cellWidth:(CGFloat)cellWidth count:(NSInteger)count;
+
 @end
