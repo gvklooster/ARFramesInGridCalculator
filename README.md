@@ -9,8 +9,6 @@
 
 This simple tool was used in every app I ever did. I wanted to share it with you.
 
-This is also my first puplic repo here on github. So for me this is also a learning experience.
-
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
