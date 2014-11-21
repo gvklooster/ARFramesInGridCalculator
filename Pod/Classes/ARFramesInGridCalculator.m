@@ -85,6 +85,8 @@
 	return retPoint;
 }
 
+#pragma mark - Tools
+
 + (CGFloat)widthForTotalWidth:(CGFloat)totalWidth count:(NSInteger)count horizontalMargin:(CGFloat)horizontalMargin
 {
 	if (count <= 0) {

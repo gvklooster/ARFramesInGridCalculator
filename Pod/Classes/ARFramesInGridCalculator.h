@@ -27,7 +27,7 @@ typedef enum {
  * @param cellSize Size of the cell.
  * @param rowCount Amount of rows wanted. Setting this to 0 will not limit the amount of rows created.
  * @param columnCount Amount of columns wanted. Setting this to 0 will not limit the amount of columns created.
- * @param direction The TSFramesInGridDirection the grid will grow.
+ * @param direction The ARFramesInGridDirection the grid will grow.
  *
  * @return initialized self.
  */
@@ -43,6 +43,8 @@ typedef enum {
 /** space between the frames */
 @property (nonatomic, assign) CGSize cellSpacing;
 
+
+
 /** size of the frames */
 @property (nonatomic, assign) CGSize cellSize;
 
@@ -56,13 +58,29 @@ typedef enum {
 @property (nonatomic, assign) ARFramesInGridDirection gridDirection;
 
 
-/** The main reason for this Class: calculate this for me! */
+/** The main reason for this calculator: calculate this for me! */
 - (CGRect)frameForIndex:(NSInteger)index;
 
-/** when placing cells within a limited width, this will calculate the corresponding cellWidth. The return value is not rounded.*/
+#pragma mark - Tools
+
+/**
+ * When placing cells within a limited width, this will calculate the corresponding cellWidth.
+ *
+ * @param totalWidth The width where the cells need to be placed.
+ * @param count Amount of cells that need to be fitted within totalWidth
+ * @param horizontalMargin The margin between the cells and between the cell and edges
+ * @return Calculated width for perfect layout. The return value is not rounded.
+ */
 + (CGFloat)widthForTotalWidth:(CGFloat)totalWidth count:(NSInteger)count horizontalMargin:(CGFloat)horizontalMargin;
 
-/** for a given cellSize and totalWidth, calculate spacing for even layout. The return value is not rounded */
+/**
+ * For a given cellSize and totalWidth, calculate spacing for even layout.
+ *
+ * @param totalWidth The width where the cells need to be placed.
+ * @param cellWidth The width of the cell.
+ * @param count Amount of cells that need to be fitted within totalWidth.
+ * @return The calculated spacing for perfect layout.
+ */
 + (CGFloat)horizontalSpacingForTotalWidth:(CGFloat)totalWidth cellWidth:(CGFloat)cellWidth count:(NSInteger)count;
 
 @end
