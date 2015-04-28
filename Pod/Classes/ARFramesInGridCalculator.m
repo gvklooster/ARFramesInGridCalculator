@@ -50,8 +50,7 @@
 	}
 	
 	CGPoint point = [self originForIndex:index];
-	CGRect retRect = CGRectMake(point.x, point.y, _cellSize.width, _cellSize.height);
-	retRect = CGRectIntegral(retRect);
+	CGRect retRect = CGRectMake(roundf(point.x), roundf(point.y), roundf(_cellSize.width), roundf(_cellSize.height));
 	
 	return retRect;
 }
