@@ -51,6 +51,8 @@
 	
 	CGPoint point = [self originForIndex:index];
 	CGRect retRect = CGRectMake(point.x, point.y, _cellSize.width, _cellSize.height);
+	retRect = CGRectIntegral(retRect);
+	
 	return retRect;
 }
 
@@ -86,6 +88,15 @@
 }
 
 #pragma mark - Tools
+
+- (void)setCellWidthToFitWidth:(CGFloat)totalWidth nuymberOfCells:(NSInteger)cellCount horizontalMargin:(CGFloat)horizontalMargin
+{
+	if (cellCount <= 0) {
+		return;
+	}
+
+	_cellSize.width = (totalWidth - ((cellCount + 1) * horizontalMargin)) / cellCount;
+}
 
 + (CGFloat)widthForTotalWidth:(CGFloat)totalWidth count:(NSInteger)count horizontalMargin:(CGFloat)horizontalMargin
 {
