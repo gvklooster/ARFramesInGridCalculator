@@ -7,21 +7,43 @@
 //
 
 #import "ViewController.h"
+#import "ARFramesInGridCalculator.h"
 
 @interface ViewController ()
+
+@property (nonatomic, strong) ARFramesInGridCalculator *framesInGridCalculator;
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
 	[super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+	CGSize cellSize = CGSizeMake(50.0, 30.0);
+	
+	self.framesInGridCalculator = [[ARFramesInGridCalculator alloc] initWithCellSize:cellSize rowCount:4 columnCount:4 andDirection:ARFramesInGridDirectionHorizontal];
+	self.framesInGridCalculator.initialOffset = CGPointMake(20.0, 100.0);
+	self.framesInGridCalculator.cellSpacing = CGSizeMake(10.0, 10.0);
+	
+	[self updateGridView];
 }
 
-- (void)didReceiveMemoryWarning {
-	[super didReceiveMemoryWarning];
-	// Dispose of any resources that can be recreated.
+- (void)updateGridView
+{
+	for (UIView *view in [self.view subviews]) {
+		[view removeFromSuperview];
+	}
+	
+	for (int i = 0; i < 15; i ++)
+	{
+		UILabel *test = [[UILabel alloc] initWithFrame:[self.framesInGridCalculator frameForIndex:i]];
+		test.backgroundColor = [UIColor colorWithWhite:0.5 alpha:0.5];
+		test.text = [NSString stringWithFormat:@"%i", i];
+		test.textAlignment = NSTextAlignmentCenter;
+		[self.view addSubview:test];
+	}
 }
 
 @end
