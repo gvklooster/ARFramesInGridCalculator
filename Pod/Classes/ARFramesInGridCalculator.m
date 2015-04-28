@@ -63,6 +63,11 @@
 	NSInteger xCount;
 	NSInteger yCount;
 	
+	if ((_columnCount != NSIntegerMax) && (_rowCount != NSIntegerMax))
+	{
+		index = index % (_columnCount * _rowCount);
+	}
+	
 	switch (_gridDirection)
 	{
 		case ARFramesInGridDirectionHorizontal: {
