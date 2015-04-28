@@ -1,5 +1,5 @@
 PODS:
-  - ARFramesInGridCalculator (0.1.0)
+  - ARFramesInGridCalculator (0.2.1)
 
 DEPENDENCIES:
   - ARFramesInGridCalculator (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ARFramesInGridCalculator: a848205cc27f4c80d0e0035bf7d247aa7cdf4042
+  ARFramesInGridCalculator: 903e72567f7169c73fe33d9b048ad42879424ee8
 
-COCOAPODS: 0.35.0
+COCOAPODS: 0.36.4

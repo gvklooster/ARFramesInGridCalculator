@@ -2,17 +2,15 @@
 //  main.m
 //  ARFramesInGridCalculator
 //
-//  Created by Gijs van Klooster on 11/21/2014.
-//  Copyright (c) 2014 Gijs van Klooster. All rights reserved.
+//  Created by Gijs van Klooster on 29-04-15.
+//  Copyright (c) 2015 Gijs van Klooster. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+#import "AppDelegate.h"
 
-#import "ARAppDelegate.h"
-
-int main(int argc, char * argv[])
-{
-    @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([ARAppDelegate class]));
-    }
+int main(int argc, char * argv[]) {
+	@autoreleasepool {
+	    return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+	}
 }

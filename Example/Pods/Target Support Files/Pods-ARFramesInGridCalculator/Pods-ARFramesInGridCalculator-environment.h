@@ -9,6 +9,6 @@
 // ARFramesInGridCalculator
 #define COCOAPODS_POD_AVAILABLE_ARFramesInGridCalculator
 #define COCOAPODS_VERSION_MAJOR_ARFramesInGridCalculator 0
-#define COCOAPODS_VERSION_MINOR_ARFramesInGridCalculator 1
-#define COCOAPODS_VERSION_PATCH_ARFramesInGridCalculator 0
+#define COCOAPODS_VERSION_MINOR_ARFramesInGridCalculator 2
+#define COCOAPODS_VERSION_PATCH_ARFramesInGridCalculator 1
 

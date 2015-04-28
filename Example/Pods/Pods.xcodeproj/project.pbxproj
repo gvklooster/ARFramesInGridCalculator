@@ -1,1056 +1,537 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>04864880370BEF05EA188806</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>ARFramesInGridCalculator</string>
-			<key>target</key>
-			<string>24F4A360A0BB8302BFFC563D</string>
-			<key>targetProxy</key>
-			<string>E52857121FC21903F12587D6</string>
-		</dict>
-		<key>0A6EDB831359483163FF9D5B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D08BE7399F183962E92A9C37</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>0ADA75442D7BB8BE76D8EEE5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CCBF9962684621F1ABD78394</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>ARFramesInGridCalculator</string>
-			<key>path</key>
-			<string>../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0C138E456F6DE9B3A111EB26</key>
-		<dict>
-			<key>fileRef</key>
-			<string>74CBFB5EDFDADAED149AE2E4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0EA02034A28E0197B5E5761B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-ARFramesInGridCalculator.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>10CC58E2ED69FC52B608F814</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>1B5DD8C4880221CF1CF5F307</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-ARFramesInGridCalculator-ARFramesInGridCalculator/Pods-ARFramesInGridCalculator-ARFramesInGridCalculator-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>11ADC5E0889A9E6B18F3B5E8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8B7674752944B5F686AD0F00</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>1442E6652385E40B013AE0B9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9C1168E01D2670F3DC0F113E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1B5DD8C4880221CF1CF5F307</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-ARFramesInGridCalculator-ARFramesInGridCalculator-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>24F4A360A0BB8302BFFC563D</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>73A7C4095736CDD134606451</string>
-			<key>buildPhases</key>
-			<array>
-				<string>EF8D2F98AC014B9EB3185B0D</string>
-				<string>46B0CC041C6D1020F7414AD8</string>
-				<string>6F7888AC5B9C82FE8AB5FF7F</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>ARFramesInGridCalculator</string>
-			<key>productName</key>
-			<string>ARFramesInGridCalculator</string>
-			<key>productReference</key>
-			<string>BF9935496AED0875A598859E</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>313473F161FB7CEA8E5CD360</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>343979360976EBA3FF823AD7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-ARFramesInGridCalculator-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>37B80CC85A0571E0DA9E3621</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-ARFramesInGridCalculator-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3ECD777FA8CB610D83FFCAD8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>78DC771EB7145ABBFD130669</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4382D160B6563AA2900D3DF0</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>0EA02034A28E0197B5E5761B</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>461EDC3F820E98BB34717CF8</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>46B0CC041C6D1020F7414AD8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>49BEBFA3A236C2DDDC9FC703</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>EA4EFA4390664E4270493BCE</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>A58FE5F603881B9E52BC380A</string>
-			<key>productRefGroup</key>
-			<string>A18CBD076F87019EA900E34E</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>24F4A360A0BB8302BFFC563D</string>
-				<string>5EAC3A56E9581EB571587EF0</string>
-				<string>A8CCD2B078F210D79211CD8A</string>
-			</array>
-		</dict>
-		<key>49BF9821B43B63E6B9D88E32</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>6ECE8818E7C25870790DCAF6</string>
-				<string>10CC58E2ED69FC52B608F814</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>50B6B1F035483897B08866E9</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>49BEBFA3A236C2DDDC9FC703</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>A8CCD2B078F210D79211CD8A</string>
-			<key>remoteInfo</key>
-			<string>Pods-ARFramesInGridCalculator-ARFramesInGridCalculator</string>
-		</dict>
-		<key>5EAC3A56E9581EB571587EF0</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>BB78BD05590C82D31AA312DA</string>
-			<key>buildPhases</key>
-			<array>
-				<string>11ADC5E0889A9E6B18F3B5E8</string>
-				<string>65D9E76273BB0D50FE41E7E2</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>AFE206200D29275B02EAF8CB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-ARFramesInGridCalculator</string>
-			<key>productName</key>
-			<string>Pods-ARFramesInGridCalculator</string>
-			<key>productReference</key>
-			<string>69BAFB6BBF4635EEF7EA46FE</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>65D9E76273BB0D50FE41E7E2</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E7869EA79A4A45EB0EB08996</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>69BAFB6BBF4635EEF7EA46FE</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-ARFramesInGridCalculator.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>6ECE8818E7C25870790DCAF6</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>1B5DD8C4880221CF1CF5F307</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-ARFramesInGridCalculator-ARFramesInGridCalculator/Pods-ARFramesInGridCalculator-ARFramesInGridCalculator-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>6F7888AC5B9C82FE8AB5FF7F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>72DD62738E6CB3ABB4E800C2</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>73A7C4095736CDD134606451</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>72DD62738E6CB3ABB4E800C2</string>
-				<string>313473F161FB7CEA8E5CD360</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>74CBFB5EDFDADAED149AE2E4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-ARFramesInGridCalculator-ARFramesInGridCalculator-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>78DC771EB7145ABBFD130669</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C630E971CF14A4F0E51FFE12</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CFB01AA97B9FD771D674153</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-ARFramesInGridCalculator-ARFramesInGridCalculator.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>871663F455F57C2888BCBB46</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-ARFramesInGridCalculator-ARFramesInGridCalculator.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>8B7674752944B5F686AD0F00</key>
-		<dict>
-			<key>fileRef</key>
-			<string>37B80CC85A0571E0DA9E3621</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8FE6F1FF8BD5BABD3D7E2577</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>9C1168E01D2670F3DC0F113E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A079C116D0030CDCC17C8321</string>
-				<string>343979360976EBA3FF823AD7</string>
-				<string>37B80CC85A0571E0DA9E3621</string>
-				<string>B8DDC9590B7615785A7B6ABB</string>
-				<string>E29E3DD2891CC32C40EB1811</string>
-				<string>D08BE7399F183962E92A9C37</string>
-				<string>0EA02034A28E0197B5E5761B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-ARFramesInGridCalculator</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-ARFramesInGridCalculator</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A079C116D0030CDCC17C8321</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-ARFramesInGridCalculator-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A18CBD076F87019EA900E34E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BF9935496AED0875A598859E</string>
-				<string>69BAFB6BBF4635EEF7EA46FE</string>
-				<string>871663F455F57C2888BCBB46</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A2ABF32E1C1BECE9725BDF78</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0ADA75442D7BB8BE76D8EEE5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A58FE5F603881B9E52BC380A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8FE6F1FF8BD5BABD3D7E2577</string>
-				<string>A2ABF32E1C1BECE9725BDF78</string>
-				<string>3ECD777FA8CB610D83FFCAD8</string>
-				<string>A18CBD076F87019EA900E34E</string>
-				<string>1442E6652385E40B013AE0B9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A8CCD2B078F210D79211CD8A</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>49BF9821B43B63E6B9D88E32</string>
-			<key>buildPhases</key>
-			<array>
-				<string>A9736F86A0C4C5BDC555012B</string>
-				<string>B53ADAC5AFFDCBA9AEE75EC5</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>04864880370BEF05EA188806</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-ARFramesInGridCalculator-ARFramesInGridCalculator</string>
-			<key>productName</key>
-			<string>Pods-ARFramesInGridCalculator-ARFramesInGridCalculator</string>
-			<key>productReference</key>
-			<string>871663F455F57C2888BCBB46</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>A9736F86A0C4C5BDC555012B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>0C138E456F6DE9B3A111EB26</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>AC6B3A03E74C54DA2C88656C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C630E971CF14A4F0E51FFE12</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AFE206200D29275B02EAF8CB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-ARFramesInGridCalculator-ARFramesInGridCalculator</string>
-			<key>target</key>
-			<string>A8CCD2B078F210D79211CD8A</string>
-			<key>targetProxy</key>
-			<string>50B6B1F035483897B08866E9</string>
-		</dict>
-		<key>B53ADAC5AFFDCBA9AEE75EC5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>AC6B3A03E74C54DA2C88656C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B8DDC9590B7615785A7B6ABB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-ARFramesInGridCalculator-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BB78BD05590C82D31AA312DA</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>0A6EDB831359483163FF9D5B</string>
-				<string>4382D160B6563AA2900D3DF0</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>BF9935496AED0875A598859E</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>ARFramesInGridCalculator.bundle</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>C630E971CF14A4F0E51FFE12</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>CCBF9962684621F1ABD78394</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7CFB01AA97B9FD771D674153</string>
-				<string>1B5DD8C4880221CF1CF5F307</string>
-				<string>74CBFB5EDFDADAED149AE2E4</string>
-				<string>E2F7DD0E42F38D01B7DF0E86</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/Pods-ARFramesInGridCalculator-ARFramesInGridCalculator</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D08BE7399F183962E92A9C37</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-ARFramesInGridCalculator.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E29E3DD2891CC32C40EB1811</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-ARFramesInGridCalculator-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2F7DD0E42F38D01B7DF0E86</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-ARFramesInGridCalculator-ARFramesInGridCalculator-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E52857121FC21903F12587D6</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>49BEBFA3A236C2DDDC9FC703</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>24F4A360A0BB8302BFFC563D</string>
-			<key>remoteInfo</key>
-			<string>ARFramesInGridCalculator</string>
-		</dict>
-		<key>E7869EA79A4A45EB0EB08996</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C630E971CF14A4F0E51FFE12</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E9C9DC58881AD84DD743F5A5</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>EA4EFA4390664E4270493BCE</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>461EDC3F820E98BB34717CF8</string>
-				<string>E9C9DC58881AD84DD743F5A5</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>EF8D2F98AC014B9EB3185B0D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>49BEBFA3A236C2DDDC9FC703</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0707B451EE6E74F22B772A3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FFF91328E9415142E191EF /* Foundation.framework */; };
+		28425964596E7CCD5616C41C /* ARFramesInGridCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 89C209E32B7B74503CB28555 /* ARFramesInGridCalculator.h */; };
+		3FB9B60EB14090427154868E /* ARFramesInGridCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = C69187F6B1A0DCF9410EAF66 /* ARFramesInGridCalculator.m */; };
+		4D89FBF555476827D2C3A1A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FFF91328E9415142E191EF /* Foundation.framework */; };
+		55FCE007F2C7859C26552408 /* Pods-ARFramesInGridCalculator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8E1191C6F7BA69FC07924B /* Pods-ARFramesInGridCalculator-dummy.m */; };
+		C0F3F8CC60D48B90037410F4 /* Pods-ARFramesInGridCalculator-ARFramesInGridCalculator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6529E52876AA054800E9E3 /* Pods-ARFramesInGridCalculator-ARFramesInGridCalculator-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B6540BC445D73718367BAA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 451234F91F46D9FE84AA79A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8107575C0FF9D4A8DC286AAF;
+			remoteInfo = "Pods-ARFramesInGridCalculator-ARFramesInGridCalculator";
+		};
+		87114D972EC0574D7D3BDA3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 451234F91F46D9FE84AA79A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5B6206AF477603732D91797;
+			remoteInfo = "Pods-ARFramesInGridCalculator-ARFramesInGridCalculator-ARFramesInGridCalculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16A7F68E1A7DDF9C16F0F1CD /* Pods-ARFramesInGridCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARFramesInGridCalculator.release.xcconfig"; sourceTree = "<group>"; };
+		2D8E1191C6F7BA69FC07924B /* Pods-ARFramesInGridCalculator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ARFramesInGridCalculator-dummy.m"; sourceTree = "<group>"; };
+		42FFF91328E9415142E191EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7793F243D90952E11BC34B2F /* Pods-ARFramesInGridCalculator-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ARFramesInGridCalculator-environment.h"; sourceTree = "<group>"; };
+		7A014339DC421784159379B0 /* libPods-ARFramesInGridCalculator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ARFramesInGridCalculator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		851473E7C94A2E1D213349EB /* Pods-ARFramesInGridCalculator-ARFramesInGridCalculator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ARFramesInGridCalculator-ARFramesInGridCalculator-prefix.pch"; sourceTree = "<group>"; };
+		89C209E32B7B74503CB28555 /* ARFramesInGridCalculator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ARFramesInGridCalculator.h; sourceTree = "<group>"; };
+		8B6529E52876AA054800E9E3 /* Pods-ARFramesInGridCalculator-ARFramesInGridCalculator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ARFramesInGridCalculator-ARFramesInGridCalculator-dummy.m"; sourceTree = "<group>"; };
+		9A1C2D10F4ED221800A7364F /* Pods-ARFramesInGridCalculator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ARFramesInGridCalculator-acknowledgements.plist"; sourceTree = "<group>"; };
+		B57EEB421FDC0ABB75125441 /* ARFramesInGridCalculator.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARFramesInGridCalculator.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C14DBE7A278022D50A88C578 /* Pods-ARFramesInGridCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARFramesInGridCalculator.debug.xcconfig"; sourceTree = "<group>"; };
+		C69187F6B1A0DCF9410EAF66 /* ARFramesInGridCalculator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ARFramesInGridCalculator.m; sourceTree = "<group>"; };
+		C8ECF401AFFCB3C4D20AF06D /* Pods-ARFramesInGridCalculator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ARFramesInGridCalculator-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CCB028C3CE86C7AAB3B1EBBC /* libPods-ARFramesInGridCalculator-ARFramesInGridCalculator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ARFramesInGridCalculator-ARFramesInGridCalculator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D102714BD6D2620944663A86 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E4E8DF78EB5D9865272D485A /* Pods-ARFramesInGridCalculator-ARFramesInGridCalculator-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARFramesInGridCalculator-ARFramesInGridCalculator-Private.xcconfig"; sourceTree = "<group>"; };
+		EAC1C9DB1537D606C62F0D08 /* Pods-ARFramesInGridCalculator-ARFramesInGridCalculator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARFramesInGridCalculator-ARFramesInGridCalculator.xcconfig"; sourceTree = "<group>"; };
+		FFDFDEBF34231B61760C54C8 /* Pods-ARFramesInGridCalculator-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ARFramesInGridCalculator-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1769966B561460F7DC2D8691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D89FBF555476827D2C3A1A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92EECF1B8131C4AAAD25EF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0707B451EE6E74F22B772A3F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F987AA3C2FAF99FBFB27CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06C946175AF31D765359A8D8 = {
+			isa = PBXGroup;
+			children = (
+				D102714BD6D2620944663A86 /* Podfile */,
+				BC80DAD658FD3D3F9D148B9B /* Development Pods */,
+				6AD37B506DA0A787D51E045E /* Frameworks */,
+				899B5A273FECD667EF25D10A /* Products */,
+				F2BA67553905B9A8B865C2A4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		1920B32B0D0C0714B5D98672 /* Pods-ARFramesInGridCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				C8ECF401AFFCB3C4D20AF06D /* Pods-ARFramesInGridCalculator-acknowledgements.markdown */,
+				9A1C2D10F4ED221800A7364F /* Pods-ARFramesInGridCalculator-acknowledgements.plist */,
+				2D8E1191C6F7BA69FC07924B /* Pods-ARFramesInGridCalculator-dummy.m */,
+				7793F243D90952E11BC34B2F /* Pods-ARFramesInGridCalculator-environment.h */,
+				FFDFDEBF34231B61760C54C8 /* Pods-ARFramesInGridCalculator-resources.sh */,
+				C14DBE7A278022D50A88C578 /* Pods-ARFramesInGridCalculator.debug.xcconfig */,
+				16A7F68E1A7DDF9C16F0F1CD /* Pods-ARFramesInGridCalculator.release.xcconfig */,
+			);
+			name = "Pods-ARFramesInGridCalculator";
+			path = "Target Support Files/Pods-ARFramesInGridCalculator";
+			sourceTree = "<group>";
+		};
+		24E3A1D13F8084DF0F200C93 /* ARFramesInGridCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				EC0E667E021BA9AD0AD1F2E1 /* Pod */,
+				C1977786FB38C8A670381B61 /* Support Files */,
+			);
+			name = ARFramesInGridCalculator;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		57EAC58CA847A4F53A3374AF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				89C209E32B7B74503CB28555 /* ARFramesInGridCalculator.h */,
+				C69187F6B1A0DCF9410EAF66 /* ARFramesInGridCalculator.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6AD37B506DA0A787D51E045E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0D010347C2FA02AC0ECF396 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		899B5A273FECD667EF25D10A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B57EEB421FDC0ABB75125441 /* ARFramesInGridCalculator.bundle */,
+				7A014339DC421784159379B0 /* libPods-ARFramesInGridCalculator.a */,
+				CCB028C3CE86C7AAB3B1EBBC /* libPods-ARFramesInGridCalculator-ARFramesInGridCalculator.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC80DAD658FD3D3F9D148B9B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24E3A1D13F8084DF0F200C93 /* ARFramesInGridCalculator */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0D010347C2FA02AC0ECF396 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				42FFF91328E9415142E191EF /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C1977786FB38C8A670381B61 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAC1C9DB1537D606C62F0D08 /* Pods-ARFramesInGridCalculator-ARFramesInGridCalculator.xcconfig */,
+				E4E8DF78EB5D9865272D485A /* Pods-ARFramesInGridCalculator-ARFramesInGridCalculator-Private.xcconfig */,
+				8B6529E52876AA054800E9E3 /* Pods-ARFramesInGridCalculator-ARFramesInGridCalculator-dummy.m */,
+				851473E7C94A2E1D213349EB /* Pods-ARFramesInGridCalculator-ARFramesInGridCalculator-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-ARFramesInGridCalculator-ARFramesInGridCalculator";
+			sourceTree = "<group>";
+		};
+		EC0E667E021BA9AD0AD1F2E1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				57EAC58CA847A4F53A3374AF /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		F2BA67553905B9A8B865C2A4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1920B32B0D0C0714B5D98672 /* Pods-ARFramesInGridCalculator */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C8AAE54C861126B2CC12237C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28425964596E7CCD5616C41C /* ARFramesInGridCalculator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		39C1AA0ECD97A13BA4DD8097 /* Pods-ARFramesInGridCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1084AB0614FC2484B50B9CE2 /* Build configuration list for PBXNativeTarget "Pods-ARFramesInGridCalculator" */;
+			buildPhases = (
+				B659B84F2D854FF6A9298C66 /* Sources */,
+				1769966B561460F7DC2D8691 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				807C1AA7D29D6988B8C2A017 /* PBXTargetDependency */,
+			);
+			name = "Pods-ARFramesInGridCalculator";
+			productName = "Pods-ARFramesInGridCalculator";
+			productReference = 7A014339DC421784159379B0 /* libPods-ARFramesInGridCalculator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8107575C0FF9D4A8DC286AAF /* Pods-ARFramesInGridCalculator-ARFramesInGridCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8031C3D227C12EA4D1031BB0 /* Build configuration list for PBXNativeTarget "Pods-ARFramesInGridCalculator-ARFramesInGridCalculator" */;
+			buildPhases = (
+				BFCBD1185239A001AD086120 /* Sources */,
+				92EECF1B8131C4AAAD25EF51 /* Frameworks */,
+				C8AAE54C861126B2CC12237C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F17C5254EB28789E25FB4E6 /* PBXTargetDependency */,
+			);
+			name = "Pods-ARFramesInGridCalculator-ARFramesInGridCalculator";
+			productName = "Pods-ARFramesInGridCalculator-ARFramesInGridCalculator";
+			productReference = CCB028C3CE86C7AAB3B1EBBC /* libPods-ARFramesInGridCalculator-ARFramesInGridCalculator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D5B6206AF477603732D91797 /* Pods-ARFramesInGridCalculator-ARFramesInGridCalculator-ARFramesInGridCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 254BFA375BA58150F1379FEA /* Build configuration list for PBXNativeTarget "Pods-ARFramesInGridCalculator-ARFramesInGridCalculator-ARFramesInGridCalculator" */;
+			buildPhases = (
+				651B5D6EBFC729A8E82BC90C /* Sources */,
+				A4F987AA3C2FAF99FBFB27CF /* Frameworks */,
+				DAD702992894C62791F4DE50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ARFramesInGridCalculator-ARFramesInGridCalculator-ARFramesInGridCalculator";
+			productName = "Pods-ARFramesInGridCalculator-ARFramesInGridCalculator-ARFramesInGridCalculator";
+			productReference = B57EEB421FDC0ABB75125441 /* ARFramesInGridCalculator.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		451234F91F46D9FE84AA79A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 251CA58E9812346FD03B82FB /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 06C946175AF31D765359A8D8;
+			productRefGroup = 899B5A273FECD667EF25D10A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39C1AA0ECD97A13BA4DD8097 /* Pods-ARFramesInGridCalculator */,
+				8107575C0FF9D4A8DC286AAF /* Pods-ARFramesInGridCalculator-ARFramesInGridCalculator */,
+				D5B6206AF477603732D91797 /* Pods-ARFramesInGridCalculator-ARFramesInGridCalculator-ARFramesInGridCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAD702992894C62791F4DE50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		651B5D6EBFC729A8E82BC90C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B659B84F2D854FF6A9298C66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55FCE007F2C7859C26552408 /* Pods-ARFramesInGridCalculator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCBD1185239A001AD086120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB9B60EB14090427154868E /* ARFramesInGridCalculator.m in Sources */,
+				C0F3F8CC60D48B90037410F4 /* Pods-ARFramesInGridCalculator-ARFramesInGridCalculator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F17C5254EB28789E25FB4E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ARFramesInGridCalculator-ARFramesInGridCalculator-ARFramesInGridCalculator";
+			target = D5B6206AF477603732D91797 /* Pods-ARFramesInGridCalculator-ARFramesInGridCalculator-ARFramesInGridCalculator */;
+			targetProxy = 87114D972EC0574D7D3BDA3D /* PBXContainerItemProxy */;
+		};
+		807C1AA7D29D6988B8C2A017 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ARFramesInGridCalculator-ARFramesInGridCalculator";
+			target = 8107575C0FF9D4A8DC286AAF /* Pods-ARFramesInGridCalculator-ARFramesInGridCalculator */;
+			targetProxy = 1B6540BC445D73718367BAA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11B9A1384FC6403408570631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3AB63A5A6919B4D8BB76686F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4E8DF78EB5D9865272D485A /* Pods-ARFramesInGridCalculator-ARFramesInGridCalculator-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ARFramesInGridCalculator-ARFramesInGridCalculator/Pods-ARFramesInGridCalculator-ARFramesInGridCalculator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		88C765A844438895CC076A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16A7F68E1A7DDF9C16F0F1CD /* Pods-ARFramesInGridCalculator.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B1FBB5DDA9A07CB2F7201673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4E8DF78EB5D9865272D485A /* Pods-ARFramesInGridCalculator-ARFramesInGridCalculator-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ARFramesInGridCalculator-ARFramesInGridCalculator/Pods-ARFramesInGridCalculator-ARFramesInGridCalculator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B30B240DFD8890690D165956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ARFramesInGridCalculator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B99CA70F2F25BB935ACCE2AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8C5225BA086E523F2B69F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ARFramesInGridCalculator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E4C663260C2481C3BEB45DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C14DBE7A278022D50A88C578 /* Pods-ARFramesInGridCalculator.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1084AB0614FC2484B50B9CE2 /* Build configuration list for PBXNativeTarget "Pods-ARFramesInGridCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4C663260C2481C3BEB45DE9 /* Debug */,
+				88C765A844438895CC076A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		251CA58E9812346FD03B82FB /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B9A1384FC6403408570631 /* Debug */,
+				B99CA70F2F25BB935ACCE2AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		254BFA375BA58150F1379FEA /* Build configuration list for PBXNativeTarget "Pods-ARFramesInGridCalculator-ARFramesInGridCalculator-ARFramesInGridCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B30B240DFD8890690D165956 /* Debug */,
+				D8C5225BA086E523F2B69F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8031C3D227C12EA4D1031BB0 /* Build configuration list for PBXNativeTarget "Pods-ARFramesInGridCalculator-ARFramesInGridCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AB63A5A6919B4D8BB76686F /* Debug */,
+				B1FBB5DDA9A07CB2F7201673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 451234F91F46D9FE84AA79A8 /* Project object */;
+}
