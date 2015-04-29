@@ -93,13 +93,14 @@
 
 #pragma mark - Tools
 
-- (void)setCellWidthToFitWidth:(CGFloat)totalWidth nuymberOfCells:(NSInteger)cellCount horizontalMargin:(CGFloat)horizontalMargin
+- (void)setCellWidthToFitWidth:(CGFloat)totalWidth numberOfCells:(NSInteger)cellCount horizontalMargin:(CGFloat)horizontalMargin
 {
 	if (cellCount <= 0) {
 		return;
 	}
 
-	_cellSize.width = (totalWidth - ((cellCount + 1) * horizontalMargin)) / cellCount;
+	_cellSize.width = [ARFramesInGridCalculator widthForTotalWidth:totalWidth count:cellCount horizontalMargin:horizontalMargin];
+	_initialOffset.x = horizontalMargin;
 }
 
 + (CGFloat)widthForTotalWidth:(CGFloat)totalWidth count:(NSInteger)count horizontalMargin:(CGFloat)horizontalMargin
@@ -109,6 +110,14 @@
 	}
 	
 	return (totalWidth - ((count + 1) * horizontalMargin)) / count;
+}
+
+- (void)setHorizontalSpacingForTotalWidth:(CGFloat)totalWidth cellWidth:(CGFloat)cellWidth count:(NSInteger)cellCount
+{
+	CGFloat margin = [ARFramesInGridCalculator horizontalSpacingForTotalWidth:totalWidth cellWidth:cellWidth count:cellCount];
+	
+	_initialOffset.x = margin;
+	_cellSpacing.width = margin;
 }
 
 + (CGFloat)horizontalSpacingForTotalWidth:(CGFloat)totalWidth cellWidth:(CGFloat)cellWidth count:(NSInteger)count

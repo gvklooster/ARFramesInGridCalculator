@@ -64,6 +64,15 @@ typedef enum {
 #pragma mark - Tools
 
 /**
+ * When placing cells within a limited width, this will calculate and set the corresponding cellWidth and x value of initialOffset for perfect alignment.
+ *
+ * @param totalWidth The width where the cells need to be placed.
+ * @param cellCount Amount of cells that need to be fitted within totalWidth
+ * @param horizontalMargin The margin between the cells and between the cell and edges
+ */
+- (void)setCellWidthToFitWidth:(CGFloat)totalWidth numberOfCells:(NSInteger)cellCount horizontalMargin:(CGFloat)horizontalMargin;
+
+/**
  * When placing cells within a limited width, this will calculate the corresponding cellWidth.
  *
  * @param totalWidth The width where the cells need to be placed.
@@ -71,7 +80,17 @@ typedef enum {
  * @param horizontalMargin The margin between the cells and between the cell and edges
  * @return Calculated width for perfect layout. The return value is not rounded.
  */
-+ (CGFloat)widthForTotalWidth:(CGFloat)totalWidth count:(NSInteger)count horizontalMargin:(CGFloat)horizontalMargin;
++ (CGFloat)widthForTotalWidth:(CGFloat)totalWidth count:(NSInteger)cellCount horizontalMargin:(CGFloat)horizontalMargin;
+
+/**
+ * For a given cellSize and totalWidth, calculate and set spacing for even layout.
+ *
+ * @param totalWidth The width where the cells need to be placed.
+ * @param cellWidth The width of the cell.
+ * @param count Amount of cells that need to be fitted within totalWidth.
+ * @return The calculated spacing for perfect layout.
+ */
+- (void)setHorizontalSpacingForTotalWidth:(CGFloat)totalWidth cellWidth:(CGFloat)cellWidth count:(NSInteger)cellCount;
 
 /**
  * For a given cellSize and totalWidth, calculate spacing for even layout.
