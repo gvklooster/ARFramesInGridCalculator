@@ -122,6 +122,10 @@
 
 + (CGFloat)horizontalSpacingForTotalWidth:(CGFloat)totalWidth cellWidth:(CGFloat)cellWidth count:(NSInteger)count
 {
+	if (count <= 0) {
+		return 0.0;
+	}
+
 	return (totalWidth - (count * cellWidth)) / (count + 1);
 }
 
