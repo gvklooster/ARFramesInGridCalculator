@@ -99,36 +99,36 @@
 		return;
 	}
 
-	_cellSize.width = [ARFramesInGridCalculator widthForTotalWidth:totalWidth count:cellCount horizontalMargin:horizontalMargin];
+	_cellSize.width = [ARFramesInGridCalculator cellWidthToFitWidth:totalWidth count:cellCount horizontalMargin:horizontalMargin];
 	_initialOffset.x = horizontalMargin;
 	_cellSpacing.width = horizontalMargin;
 }
 
-+ (CGFloat)widthForTotalWidth:(CGFloat)totalWidth count:(NSInteger)count horizontalMargin:(CGFloat)horizontalMargin
++ (CGFloat)cellWidthToFitWidth:(CGFloat)totalWidth count:(NSInteger)cellCount horizontalMargin:(CGFloat)horizontalMargin
 {
-	if (count <= 0) {
+	if (cellCount <= 0) {
 		return 0.0;
 	}
 	
-	return (totalWidth - ((count + 1) * horizontalMargin)) / count;
+	return (totalWidth - ((cellCount + 1) * horizontalMargin)) / cellCount;
 }
 
-- (void)setHorizontalSpacingForTotalWidth:(CGFloat)totalWidth cellWidth:(CGFloat)cellWidth count:(NSInteger)cellCount
+- (void)setHorizontalMarginForTotalWidth:(CGFloat)totalWidth cellWidth:(CGFloat)cellWidth count:(NSInteger)cellCount
 {
-	CGFloat margin = [ARFramesInGridCalculator horizontalSpacingForTotalWidth:totalWidth cellWidth:cellWidth count:cellCount];
+	CGFloat margin = [ARFramesInGridCalculator horizontalMarginForTotalWidth:totalWidth cellWidth:cellWidth count:cellCount];
 	
 	_cellSize.width = cellWidth;
 	_initialOffset.x = margin;
 	_cellSpacing.width = margin;
 }
 
-+ (CGFloat)horizontalSpacingForTotalWidth:(CGFloat)totalWidth cellWidth:(CGFloat)cellWidth count:(NSInteger)count
++ (CGFloat)horizontalMarginForTotalWidth:(CGFloat)totalWidth cellWidth:(CGFloat)cellWidth count:(NSInteger)cellCount
 {
-	if (count <= 0) {
+	if (cellCount <= 0) {
 		return 0.0;
 	}
 
-	return (totalWidth - (count * cellWidth)) / (count + 1);
+	return (totalWidth - (cellCount * cellWidth)) / (cellCount + 1);
 }
 
 @end

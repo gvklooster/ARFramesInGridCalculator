@@ -27,7 +27,7 @@
 	
 	self.framesInGridCalculator = [[ARFramesInGridCalculator alloc] initWithCellSize:cellSize rowCount:4 columnCount:4 andDirection:ARFramesInGridDirectionHorizontal];
 	self.framesInGridCalculator.cellSpacing = CGSizeMake(10.0, 10.0);
-	[self.framesInGridCalculator setHorizontalSpacingForTotalWidth:CGRectGetWidth(self.view.bounds) cellWidth:cellSize.width count:4];
+	[self.framesInGridCalculator setHorizontalMarginForTotalWidth:CGRectGetWidth(self.view.bounds) cellWidth:cellSize.width count:4];
 //	[self.framesInGridCalculator setCellWidthToFitWidth:CGRectGetWidth(self.view.bounds) numberOfCells:4 horizontalMargin:5];
 	
 	
@@ -58,7 +58,7 @@
 
 - (void)addControls
 {
-	UISegmentedControl *segControl = [[UISegmentedControl alloc] initWithItems:@[@"Horizontal", @"Vertical"]];
+	UISegmentedControl *segControl = [[UISegmentedControl alloc] initWithItems:@[@"DirectionHorizontal", @"DirectionVertical"]];
 	segControl.frame = CGRectMake(10.0, 40.0, CGRectGetWidth(self.view.bounds) - 20.0, 30.0);
 	[segControl addTarget:self action:@selector(segmentedTapped:) forControlEvents:UIControlEventValueChanged];
 	segControl.selectedSegmentIndex = 0;
