@@ -26,9 +26,9 @@
 	CGSize cellSize = CGSizeMake(50.0, 30.0);
 	
 	self.framesInGridCalculator = [[ARFramesInGridCalculator alloc] initWithCellSize:cellSize rowCount:4 columnCount:4 andDirection:ARFramesInGridDirectionHorizontal];
-//	self.framesInGridCalculator.initialOffset = CGPointMake(10.0, 10.0);
 	self.framesInGridCalculator.cellSpacing = CGSizeMake(10.0, 10.0);
-	[self.framesInGridCalculator setCellWidthToFitWidth:CGRectGetWidth(self.view.bounds) numberOfCells:4 horizontalMargin:10];
+	[self.framesInGridCalculator setHorizontalSpacingForTotalWidth:CGRectGetWidth(self.view.bounds) cellWidth:cellSize.width count:4];
+//	[self.framesInGridCalculator setCellWidthToFitWidth:CGRectGetWidth(self.view.bounds) numberOfCells:4 horizontalMargin:5];
 	
 	
 	self.gridContainerView = [[UIView alloc] initWithFrame:CGRectMake(0.0, 200.0, CGRectGetWidth(self.view.bounds), CGRectGetHeight(self.view.bounds))];
