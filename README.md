@@ -10,32 +10,43 @@ This simple tool is used in every app I ever did. It is nothing fancy, just conv
 
 ## Description
 
-ARFramesInGridCalculator a single class that makes it really easy to create frames in a grid, for buttons, images, textfield, .. whatever. Something most developers have to do many times to order and display a list of items.
-
-Initialize with a cell size and information about how to arrange the frames. Optionally add a initial offset and spacing and once it is set to your specific needs, you can just ask a frame for a certain index.
-
-![ExplainPic1](ExplainPic1.png)
+ARFramesInGridCalculator is a single class that will calculate frames in a grid that you specified. Useful for placing buttons, images, textfields, etc. Furthermore ARFramesInGridCalculator makes it really easy to adjust the layout to match design specifications.
 
 ## Usage
 
-The method `frameForIndex:` is what you will use most.
+Initialize with a `cellSize` and information about how to arrange the cells. 
+
+```
+	ARFramesInGridCalculator *calculator = [[ARFramesInGridCalculator alloc] initWithCellSize:CGSizeMake(80.0, 30.0) rowCount:0 columnCount:2 andDirection:ARFramesInGridDirectionHorizontal];
+```
+
+(If you set rowCount to `0` there will be no limit on the amount of rows.)
+
+Optionally set the `initialOffset` and `cellSpacing` properties.
+
+![ExplainPic1](ExplainPic1.png)
+
+
+The method `frameForIndex:` is what you will use most. For example:
 
 ```
 	for (int i = 0; i < 14; i ++)
 	{
-		UILabel *test = [[UILabel alloc] initWithFrame:[framesInGridCalculator frameForIndex:i]];
+		UILabel *test = [[UILabel alloc] initWithFrame:[calculator frameForIndex:i]];
 		[self.gridContainerView addSubview:test];
 	}
 ```
 
 
-I've added methods that will help you get the right sizes:
+There are more methods availabele wich are documented in the header file but worth mentioning here:
 
-- When placing cells within a limited width, this will calculate the corresponding cellWidth.
-`widthForTotalWidth:count:horizontalMargin:`
+- To calculate the resulting cell width when margin is fixed:
+`setCellWidthToFitWidth:count:horizontalMargin:`*
 
-- For a given cell width and totalWidth, calculate spacing for even layout.
-`horizontalSpacingForTotalWidth:cellWidth:count:`
+- For a given cell width and totalWidth, calculate margin for even layout.
+`setHorizontalMarginForTotalWidth:cellWidth:count:`*
+
+\* When using these methods `cellSize.width`, `initialOffset.x` and `cellSpacing.width` will all be set;
 
 
 
