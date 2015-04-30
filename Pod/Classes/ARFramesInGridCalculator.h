@@ -75,7 +75,7 @@ typedef enum {
  * @param cellCount Amount of cells that need to be fitted within totalWidth.
  * @param horizontalMargin The margin between the cells and between the cell and edges.
  */
-- (void)setCellWidthToFitWidth:(CGFloat)totalWidth numberOfCells:(NSInteger)cellCount horizontalMargin:(CGFloat)horizontalMargin;
+- (void)setCellWidthToFitWidth:(CGFloat)totalWidth count:(NSInteger)cellCount horizontalMargin:(CGFloat)horizontalMargin;
 
 /**
  * When placing cells within a limited width, this will calculate the corresponding cellWidth.

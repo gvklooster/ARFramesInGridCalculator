@@ -93,12 +93,8 @@
 
 #pragma mark - Tools
 
-- (void)setCellWidthToFitWidth:(CGFloat)totalWidth numberOfCells:(NSInteger)cellCount horizontalMargin:(CGFloat)horizontalMargin
+- (void)setCellWidthToFitWidth:(CGFloat)totalWidth count:(NSInteger)cellCount horizontalMargin:(CGFloat)horizontalMargin
 {
-	if (cellCount <= 0) {
-		return;
-	}
-
 	_cellSize.width = [ARFramesInGridCalculator cellWidthToFitWidth:totalWidth count:cellCount horizontalMargin:horizontalMargin];
 	_initialOffset.x = horizontalMargin;
 	_cellSpacing.width = horizontalMargin;
