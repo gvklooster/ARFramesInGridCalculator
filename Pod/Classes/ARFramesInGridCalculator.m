@@ -101,6 +101,7 @@
 
 	_cellSize.width = [ARFramesInGridCalculator widthForTotalWidth:totalWidth count:cellCount horizontalMargin:horizontalMargin];
 	_initialOffset.x = horizontalMargin;
+	_cellSpacing.width = horizontalMargin;
 }
 
 + (CGFloat)widthForTotalWidth:(CGFloat)totalWidth count:(NSInteger)count horizontalMargin:(CGFloat)horizontalMargin
@@ -116,6 +117,7 @@
 {
 	CGFloat margin = [ARFramesInGridCalculator horizontalSpacingForTotalWidth:totalWidth cellWidth:cellWidth count:cellCount];
 	
+	_cellSize.width = cellWidth;
 	_initialOffset.x = margin;
 	_cellSpacing.width = margin;
 }
