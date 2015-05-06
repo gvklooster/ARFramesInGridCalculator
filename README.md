@@ -6,21 +6,22 @@
 
 ## Introduction
 
-This simple tool is used in every app I ever did. It is nothing fancy, just convenience. I like things nicely aligned, and this makes it really easy. Once you've tried it, you'll be hooked.
+This is a simple tool that I use in (almost) every app. It is nothing fancy, just convenience. I like things nicely aligned, and this makes it really easy. Once you've tried it, you'll be hooked.
 
 ## Description
 
-ARFramesInGridCalculator is a single class that will calculate frames in a grid that you specified. Useful for placing buttons, images, textfields, etc. Furthermore ARFramesInGridCalculator makes it really easy to adjust the layout to match design specifications.
+ARFramesInGridCalculator is a single class that will calculate frames in a grid that you specified. Useful for placing buttons, images, textfields, etc. Your designer changed his mind? ARFramesInGridCalculator makes it really simple to adjust the layout to match design specifications. And it makes it really easy to display your content dynamically based on the available bounds and number of items.
 
 ## Usage
 
-Initialize with a `cellSize` and information about how to arrange the cells. 
+Initialize with a `cellSize` and information about how to arrange the cells. If you set rowCount to `0` there will be no limit on the amount of rows calculated.
+
 
 ```
 	ARFramesInGridCalculator *calculator = [[ARFramesInGridCalculator alloc] initWithCellSize:CGSizeMake(80.0, 30.0) rowCount:0 columnCount:2 andDirection:ARFramesInGridDirectionHorizontal];
 ```
 
-(If you set rowCount to `0` there will be no limit on the amount of rows.)
+
 
 Optionally set the `initialOffset` and `cellSpacing` properties.
 
