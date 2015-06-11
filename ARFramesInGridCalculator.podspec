@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name             = "ARFramesInGridCalculator"
-  s.version          = "0.3.0"
+  s.version          = "0.3.1"
   s.summary          = "ARFramesInGridCalculator is a simple tool to calculate frames in a grid."
   s.description      = <<-DESC
-                       ARFramesInGridCalculator a single class that makes it really easy to create frames in a grid, for buttons, images, textfield, .. whatever. Something most developers have to do many times to display a list of items when it is not a table view or collection view. Initialize with a cell size and information about how to arrange the frames. Optionally add a initial offset and spacing and once it is set to your specific needs, you can just ask a frame for a certain index.This class is well documented. Read the header files for more info.
+                       ARFramesInGridCalculator is a single class that will calculate frames in a grid that you specified. Useful for placing buttons, images, textfields, etc. Your designer changed his mind? ARFramesInGridCalculator makes it really simple to adjust the layout to match design specifications. And it makes it really easy to display your content dynamically based on the available bounds and number of items.
                        DESC
   s.homepage         = "https://github.com/GFunkloostar/ARFramesInGridCalculator"
   s.license          = 'MIT'
