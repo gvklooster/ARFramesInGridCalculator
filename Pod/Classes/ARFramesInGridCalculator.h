@@ -57,6 +57,9 @@ typedef enum {
 /** see description above */
 @property (nonatomic, assign) ARFramesInGridDirection gridDirection;
 
+/** Calculated frames are rounded by default. You can change that here. */
+@property (nonatomic, assign) BOOL framesRounded;
+
 
 /**
  * The main reason for this calculator.

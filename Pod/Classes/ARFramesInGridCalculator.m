@@ -17,6 +17,8 @@
     self = [super init];
     if (self)
 	{
+		_framesRounded	= YES;
+
 		_cellSize		= cellSize;
 
 		_initialOffset	= CGPointZero;
@@ -50,7 +52,16 @@
 	}
 	
 	CGPoint point = [self originForIndex:index];
-	CGRect retRect = CGRectMake(roundf(point.x), roundf(point.y), roundf(_cellSize.width), roundf(_cellSize.height));
+	CGRect retRect;
+	
+	if (_framesRounded)
+	{
+		retRect = CGRectMake(roundf(point.x), roundf(point.y), roundf(_cellSize.width), roundf(_cellSize.height));
+	}
+	else
+	{
+		retRect = CGRectMake(point.x, point.y, _cellSize.width, _cellSize.height);
+	}
 	
 	return retRect;
 }
